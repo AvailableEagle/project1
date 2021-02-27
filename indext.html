@@ -20,5 +20,27 @@
     <a href="/indext.html">หน้าแรก</a> | <a href="/about.html">เกี่ยวกับ</a> | <a href="/contact.html">ติดต่อ</a>
     <h1>สวัสดีชาวโลก</h1>
     <img src="/dog.jpg" alt="dog" width="1000px">
+    <br>
+    <button id="btn-1" onclick="doAlert('บัณฑิต')" >CLICK HERE</button>
+   
+
+    <div class="bg-color-red">อะไรสักอย่าง</div>
+    <div class="bg-color-gold">asdf jk;l</div>
+
+    <div class="H">ABC</div>
+    <div class="H">DEF</div>
+
+    <div class="border-1-radius-5">
+        <h1 id="fontSize">ระเบิดเวลา อ้าาาา</h1>
+    </div>
+    
+    <script>
+        function doAlert(name) {
+            alert("สวัสดี" + name);
+        }
+
+        let x = document.getElementById("btn-1");
+        x.innerHTML = "Hello";
+    </script>
 </body>
 </html>

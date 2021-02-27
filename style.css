@@ -37,3 +37,36 @@ body {
     background-color: darkgreen;
     font-family: 'Prompt', sans-serif;  
 }
+
+.bg-color-red {
+    background-color: red;
+    font-size: 15px;
+}
+
+.bg-color-gold {
+    background-color: gold;
+    font-size: 20px;
+}
+
+.border-1-radius-5 {
+    background-color: #ed710a;
+    color: #cda833;
+    border: 1px solid #ededed;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+}
+
+div {
+    text-align: center;
+}
+
+
+.H {
+    float: left;
+    overflow: hidden;
+}
+
+#fontSize {
+    font-size: 50px;
+}
